@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width:100%;
+    height:100%;
+    font-family:sans-serif;
+}
+
+.nav{
+    padding:10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 600;
+    background-color:rgb(235, 232, 232) ;
+}
+
+
+.nav h4,.nav i{
+    padding:10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav i{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    margin:4px;
+}
+
+.center{
+    padding:5px 55px;
+}
+
+.center p{
+    font-size: 55px;
+    line-height: 58px;
+    font-weight: 400;
+    padding: 25px 0 8px 0;
+}
+
+.center-bottom{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.center-bottom p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+.center-bottom .right{
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.center-bottom .right{
+    width:17%;
+    margin-right: 8px;
+}
+
+.center-bottom .right .external{
+
+    border-top: 2px solid black;
+    font-weight: 400;
+}
+
+.external a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.external i{
+    opacity: 0;
+}
+
+.external:hover{
+    cursor: pointer;
+    }
+
+.external:hover i{
+    opacity: 1;
+
+    
+}
+
+.external:hover a{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.external{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+}
+
+.bottom{
+    height:45%;
+    width:100%;
+    background-color: red;
+background-image: url(https://images.unsplash.com/photo-1602825501647-8807655721ce?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size: cover;
+background-position:10% 52%;
+}
