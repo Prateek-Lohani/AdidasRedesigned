@@ -147,7 +147,7 @@ background-position:10% 52%;
     
     
     .center{
-        padding:2em 5em;
+        padding:1em 4em;
     }
     
     .center p{
@@ -209,8 +209,8 @@ background-position:10% 52%;
     }
     
     nav svg{
-        height:3.5vh;
-        width:3.5vw;
+        height:4vh;
+        width:4vw;
     }
     
     .external a:hover{
