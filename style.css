@@ -147,14 +147,13 @@ background-position:10% 52%;
     
     
     .center{
-        padding:1em 4em;
+        padding:1.5em 3.5em;
     }
     
     .center p{
         font-size: 4rem;
         line-height: 4rem;
         font-weight: 400;
-        padding: 20px 0 8px 0;
     }
     
     .center-bottom{
