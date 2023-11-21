@@ -237,8 +237,8 @@ background-position:10% 50%;
     }
     
     .bottom{
-        height:40vw;
-        width:100vh;
+        height:40%;
+        width:100%;
     background-image: url('./image.jpeg');
     background-size: cover;
     background-position:10% 52%;
